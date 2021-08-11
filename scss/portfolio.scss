@@ -1,0 +1,153 @@
+@import "variables.scss";
+
+/* Portfolio page styles */
+
+.block-19{
+	position: relative;
+	.img-video-side{
+		position: relative;
+	}
+	.img-container{
+		position: absolute;
+		top:0px;
+	}
+	.video-btn{
+		background: $white;
+		height: 64px;
+		border-radius: 101px;
+		position: absolute;
+		transition: all 0.2s;
+		.play-btn{
+			margin-right: 12px;
+			background: $black;
+			height: 40px;
+			width: 40px;
+			border-radius: 50%;
+			svg{
+				fill: $white;
+			}
+		}
+		&:hover{
+			background: $black;
+			color:$white;
+			.play-btn{
+				background: $white;
+				svg{
+					fill: $black;
+				}
+			}			
+		}
+	}
+	@media(max-width: 1400px){
+		.video-btn{
+			.play-btn{
+				margin-right: 0px;
+				display: block;
+			}
+			h5{
+				display: none;
+			}
+			&:hover{
+				.play-btn{
+					display: none !important; 
+				}	
+				h5{
+					display: block;
+				}				
+			}
+		}		
+	}
+	@media(max-width: 992px){
+		.img-container{
+			position: relative;
+			img{
+				width: 100%;
+				height: auto;
+			}
+		}		
+	}
+}
+
+.block-20{
+	.slider-5-menu{
+		.slider-5-menu-item{
+			color: $grey-dark-4;
+			transition: all 0.2s;
+			&.active, &:hover{
+				color: $black;
+			} 
+		}
+	}
+	.line{
+		width: 300px;
+		height:1px;
+		background: $grey-dark-2;
+	}
+}
+
+.block-21{
+	.project-column{
+		.project-block{
+			padding-top: 30px;
+			margin-bottom: 30px;
+			&:last-of-type{
+				margin-bottom: 0;
+			}
+		}
+		&:nth-of-type(1){
+			.project-block{
+				&:nth-of-type(1){
+					padding-top: 0;
+				}
+			}
+		}
+	}
+	.project-img{
+		position: relative;
+		.project-more{
+			border: 8px solid rgba(255, 255, 255, 0.2);
+			display: none;
+			transition: all 0.2s;
+			position: absolute;
+			border-radius: 50%;
+			.inner{
+				height: 87px;
+				width: 87px;
+				border-radius: 50%;
+			}
+		}
+		&:before{
+			content:'';
+			background: rgba(0, 0, 0, 0);
+			position: absolute;
+			top:0;
+			right:0;
+			width: 100%;
+			height: 100%;
+			border-radius: 10px;
+			transition: all 0.2s;
+		}
+		&:hover{
+			&:before{
+				background: rgba(0, 0, 0, 0.4);
+			}
+			.project-more{
+				display: block;
+			}
+		}
+	}
+}
+
+.block-22{
+	.img-1{
+		width: 66%;
+	}
+	.img-2{
+		width: 31%;
+	}
+	@media(max-width: 576.98px){
+		.img-1, .img-2{
+			width: 100%;
+		}
+	}
+}

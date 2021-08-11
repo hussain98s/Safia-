@@ -1,0 +1,53 @@
+@import "variables.scss";
+
+/* Position page styles */
+
+.block-26{
+	.dot{
+		margin-left: 12px;
+		margin-right: 12px;
+		&:after{
+			content:'';
+			height: 6px;
+			width: 6px;
+			border-radius: 50%;
+			background: $grey-light-3;
+		}
+	}
+	.white-line{
+		height: 1px;
+		width: 100%;
+		background: $white;
+	}
+	input{
+		height: 50px;
+		border-radius:10px;
+		font-size: 18px;
+		color: $white;
+		border-width: 0px;
+		border-style: none;
+		border-color: none;		
+	}
+	.double_input{
+		.pseudo-input{
+			background: rgb(36,36,36);
+			height: 50px;
+			line-height: 50px;
+			border-radius: 9px 0px 0px 9px;
+			border: 1px solid rgb(51,51,51);
+		}
+		input{
+			border-radius: 0px 9px 9px 0px;
+		}
+	}
+	textarea{
+		padding: 12px 16px;
+		height: 137px;
+		font-family: $font_first;		
+		font-size: 18px;
+		line-height: 20px;
+		letter-spacing: -0.3px;
+		border: none;
+		resize: none;
+	}
+}

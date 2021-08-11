@@ -1,0 +1,153 @@
+/* Variables */
+/* Case page styles */
+.block-12 .person-photo {
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  margin-right: 12px; }
+
+.block-13 .number {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+
+.block-15 .slider-text-block {
+  width: 920px; }
+  .block-15 .slider-text-block .slick-arrows {
+    position: relative;
+    height: 60px; }
+  .block-15 .slider-text-block .slick-arrow {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    display: block; }
+    .block-15 .slider-text-block .slick-arrow.next {
+      right: 18px;
+      bottom: 20px; }
+    .block-15 .slider-text-block .slick-arrow.prev {
+      right: 68px;
+      bottom: 20px; }
+    .block-15 .slider-text-block .slick-arrow svg {
+      fill: rgba(0, 0, 0, 0.6); }
+    .block-15 .slider-text-block .slick-arrow:hover:before {
+      content: '';
+      height: 60px;
+      width: 60px;
+      border-radius: 50px;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      position: absolute;
+      top: -18px;
+      right: -18px; }
+    .block-15 .slider-text-block .slick-arrow:hover svg {
+      fill: #000000; }
+
+@media (max-width: 991.98px) {
+  .block-15 .slider-text-block {
+    width: 86.82vw; } }
+
+@media (max-width: 576.98px) {
+  .block-15 .slider-text-block .slick-arrows {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .block-15 .slider-text-block .slick-arrow {
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative; }
+    .block-15 .slider-text-block .slick-arrow.next {
+      right: auto;
+      bottom: auto; }
+    .block-15 .slider-text-block .slick-arrow.prev {
+      margin-right: 20px;
+      right: auto;
+      bottom: auto; }
+    .block-15 .slider-text-block .slick-arrow:hover:before {
+      content: '';
+      top: 0px;
+      right: 0px; } }
+
+.block-16 {
+  overflow: hidden; }
+  .block-16 .container-fluid {
+    position: relative; }
+  .block-16 .slider-4 .slick-slide {
+    height: calc(100vw / 2.66); }
+    .block-16 .slider-4 .slick-slide .slide-inner {
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+  .block-16 .slider-4-menu {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #ffffff;
+    height: 50px;
+    border-radius: 66px;
+    border: 1px solid rgba(0, 0, 0, 0.1); }
+    .block-16 .slider-4-menu .slider-4-menu-item {
+      color: rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s; }
+      .block-16 .slider-4-menu .slider-4-menu-item svg {
+        fill: rgba(0, 0, 0, 0.3); }
+      .block-16 .slider-4-menu .slider-4-menu-item.active {
+        color: #2D74FF; }
+        .block-16 .slider-4-menu .slider-4-menu-item.active svg {
+          fill: #2D74FF; }
+  @media (max-width: 992px) {
+    .block-16 .slider-4 .slick-slide {
+      height: calc(100vw / 1.8); } }
+  @media (max-width: 576px) {
+    .block-16 .slider-4 .slick-slide {
+      height: 100vw; }
+    .block-16 .slider-4-menu {
+      bottom: 30px; }
+      .block-16 .slider-4-menu .slider-4-menu-item .caption-2 {
+        display: none;
+        -webkit-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; }
+      .block-16 .slider-4-menu .slider-4-menu-item.active .caption-2 {
+        display: block; } }
+
+.block-17 {
+  position: relative; }
+  .block-17 img {
+    position: absolute;
+    top: 83px; }
+  @media (max-width: 576px) {
+    .block-17 .img-container {
+      position: relative;
+      top: 0;
+      height: 100vw; } }
+
+.block-18 .project-block {
+  position: relative;
+  padding-bottom: 360px; }
+  .block-18 .project-block img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }

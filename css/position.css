@@ -1,0 +1,45 @@
+/* Variables */
+/* Position page styles */
+.block-26 .dot {
+  margin-left: 12px;
+  margin-right: 12px; }
+  .block-26 .dot:after {
+    content: '';
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3); }
+
+.block-26 .white-line {
+  height: 1px;
+  width: 100%;
+  background: #ffffff; }
+
+.block-26 input {
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  border-width: 0px;
+  border-style: none;
+  border-color: none; }
+
+.block-26 .double_input .pseudo-input {
+  background: #242424;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 9px 0px 0px 9px;
+  border: 1px solid #333333; }
+
+.block-26 .double_input input {
+  border-radius: 0px 9px 9px 0px; }
+
+.block-26 textarea {
+  padding: 12px 16px;
+  height: 137px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  border: none;
+  resize: none; }
