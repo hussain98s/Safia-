@@ -1,17 +1,13 @@
-/* Variables */
-/* Case page styles */
 .block-12 .person-photo {
   border-radius: 50%;
   height: 36px;
   width: 36px;
   margin-right: 12px; }
-
 .block-13 .number {
   height: 40px;
   width: 40px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1); }
-
 .block-15 .slider-text-block {
   width: 920px; }
   .block-15 .slider-text-block .slick-arrows {
